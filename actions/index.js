@@ -4,15 +4,16 @@ import {
 } from './types';
 
 export const emailChanged = (text) => {
+	// console.log(text);
 	return {
-		type: 'EMAIL_CHANGED',
+		type: EMAIL_CHANGED,
 		payload: text 
 	};
 };
 
 export const passwordChanged = (text) => {
 	return {
-		type: 'PASSWORD_CHANGED',
+		type: PASSWORD_CHANGED,
 		payload: text 
 	};
 };
