@@ -1,9 +1,9 @@
 import React from 'react';
-import { Text, View } from 'react-native';
 import { Provider } from 'react-redux';
 import store from './store';
 import firebase from 'firebase';
 import LoginForm from './components/LoginForm';
+import ReduxThunk from 'redux-thunk';
 
 export default class App extends React.Component {
 
